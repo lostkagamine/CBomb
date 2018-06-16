@@ -6,15 +6,15 @@ using System.Threading.Tasks;
 
 namespace CBomb
 {
-	namespace ExceptionHandler
-	{
-		class Crasher
-		{
-			public void Crash(Exception e)
-			{
-				System.Windows.Forms.MessageBox.Show(e.ToString(), "don't you love it when your virus crashes", System.Windows.Forms.MessageBoxButtons.OK, System.Windows.Forms.MessageBoxIcon.Error);
-				Environment.Exit(1);
-			}
-		}
-	}
+    namespace ExceptionHandler
+    {
+        class Crasher
+        {
+            public void Crash(Exception e)
+            {
+                System.Windows.Forms.MessageBox.Show(e.ToString(), "don't you love it when your virus crashes", System.Windows.Forms.MessageBoxButtons.OK, System.Windows.Forms.MessageBoxIcon.Error);
+                Environment.Exit(1);
+            }
+        }
+    }
 }
